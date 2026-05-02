@@ -46,6 +46,11 @@ question-generator-client/
   .github/workflows/deploy.yml
 ```
 
+## TODO
+- [ ] Check overall accuracy of the tool across a range of sentence types
+- [ ] Fix closed question regular verb manipulation (e.g. "loved" → "lov" instead of "love")
+- [ ] Ensure all possible open questions are generated for each sentence
+
 ## Known limitations
 - Common people nouns ("students", "children") generate "What" instead of "Who" in subject questions (compromise does not tag them as Person)
 - Time adverbials without a preposition ("last week") bundle into the direct object
