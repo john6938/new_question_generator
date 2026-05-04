@@ -221,7 +221,7 @@ export default function App() {
           </div>
 
           <div className="mt-5 pt-4 border-t border-gray-100 text-center text-xs text-gray-400">
-            John Blake, Aston University &copy; 2026
+            John Blake, Aston University. Version 2.0.
           </div>
         </div>
       </div>
@@ -298,7 +298,7 @@ export default function App() {
         )}
 
         <div className="mt-4 pt-4 border-t border-gray-100 text-center text-xs text-gray-400">
-          John Blake, Aston University &copy; 2026
+          John Blake, Aston University. Version 2.0.
         </div>
       </div>
     </div>
